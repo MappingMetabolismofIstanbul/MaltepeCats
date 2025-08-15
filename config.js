@@ -19,7 +19,7 @@ var config = {
     title: 'Maltepe Kedileri / The Cats of Maltepe',
     subtitle: '',
     byline: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
-    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    footer: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
     chapters: [
         {
             id: '0',
@@ -54,13 +54,13 @@ var config = {
             image: 'https://i.ibb.co/xt780ssk/1.png',
             description: '',
             location: {
-               center: [29.12358460330592,40.92628271987823],
-                zoom: 12,
+               center: [29.105411198749145,40.931806463171],
+                zoom: 14,
                 pitch: 0,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 // {
@@ -84,13 +84,13 @@ var config = {
              image: 'https://i.ibb.co/FkJjLx1d/2.png',
             description: '',
             location: {
-              center: [29.12358460330592,40.92628271987823],
-                zoom: 15,
-                pitch: 40,
+              center: [29.13189993199594,40.931334055466664],
+                zoom: 13.5,
+                pitch: 0,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 // {
@@ -106,35 +106,6 @@ var config = {
                 // }
             ]
         },
-          {
-            id: '3',
-            alignment: 'right',
-            hidden: false,
-            title: '',
-             image: '',
-            description: '',
-            location: {
-              center: [29.11192680679872,40.93587513162109],
-                zoom: 15,
-                pitch: 40,
-                bearing: 0
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: true,
-            callback: '',
-            onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
-            ]
-        },
+          
     ]
 };
